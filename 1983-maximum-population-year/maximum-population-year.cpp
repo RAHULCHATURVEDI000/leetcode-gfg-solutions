@@ -13,7 +13,7 @@ public:
          }
          int mpop=0;
          int cpop=0;
-         int eyear=0;
+         int eyear=1950;
          for(int i=0;i<change.size();i++){
             cpop+=change[i];
             if(cpop>mpop){
